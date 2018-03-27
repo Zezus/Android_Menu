@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/mm_call_item"
+            android:title="@string/call" />
+
+        <item
+            android:id="@+id/mm_settings_item"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/mm_about_item"
+            android:icon="@drawable/ic_info_name"
+            android:title="@string/about"
+            app:showAsAction="always" />
+    </group>
+</menu>
