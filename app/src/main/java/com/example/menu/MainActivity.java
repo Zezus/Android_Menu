@@ -1,8 +1,6 @@
 package com.example.menu;
 
 import android.os.Bundle;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.ContextMenu;
 import android.view.Menu;
@@ -14,8 +12,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private TextView clickMeTV;
-    private DrawerLayout drawerLayout;
-    private ActionBarDrawerToggle actionBarDrawerToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         clickMeTV = findViewById(R.id.ma_test_tv);
         clickMeTV.setOnCreateContextMenuListener(this);
-
-        drawerLayout = findViewById(R.id.am_drLayout);
     }
 
 

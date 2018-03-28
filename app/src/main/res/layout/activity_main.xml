@@ -7,13 +7,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.menu.MainActivity">
 
-    <android.support.design.widget.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:headerLayout="@layout/header"
-        app:menu="@menu/drawer_menu" />
-
     <TextView
         android:id="@+id/ma_test_tv"
         android:layout_width="match_parent"
